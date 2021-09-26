@@ -3,7 +3,8 @@
         class="col-5 flag mx-auto" 
         *ngFor="let conqueror of conquerors" 
         (click)="onClick(conqueror)" 
-        [class.selected] = "conqueror.name === selectedConqueror"
+        [class.selected] = "conqueror.name === selectedConqueror" 
+        [class.not_selected] = "conqueror.name != selectedConqueror"
         id="{{conqueror.id}}"    
     >
         <div class="row">

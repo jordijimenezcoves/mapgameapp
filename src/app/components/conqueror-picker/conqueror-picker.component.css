@@ -25,3 +25,7 @@ p {
 .selected {
     border: solid 4px black;
 }
+
+.not_selected {
+    filter: opacity(50%);
+}
