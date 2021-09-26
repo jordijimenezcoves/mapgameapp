@@ -1,7 +1,8 @@
 .map-container {
     width: 100%;
     height: auto;
-    background-color: lightblue;
+    background-image: url('../../../assets/img/ocean.jpg');
+    background-size: cover;
     padding: 10px;
 }
 
