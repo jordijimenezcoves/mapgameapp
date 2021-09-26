@@ -4,6 +4,7 @@
     background-image: url('../../../assets/img/ocean.jpg');
     background-size: cover;
     padding: 10px;
+    border: 4px solid black;
 }
 
 .map-container path {

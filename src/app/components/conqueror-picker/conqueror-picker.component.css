@@ -1,11 +1,12 @@
 .flag {
     cursor: pointer;
-    margin: 10px;
-    border: solid 4px gray;
+    margin: 5px;
+    border: solid 4px black;
+    background-color: lightgray;
 }
 
 .flag:hover {
-    border: solid 4px black;
+    filter: brightness(1);
 }
 
 .flag img {
@@ -24,8 +25,9 @@ p {
 
 .selected {
     border: solid 4px black;
+    z-index: 10;
 }
 
 .not_selected {
-    filter: opacity(50%);
+    filter: brightness(0.5);
 }
