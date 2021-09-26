@@ -1,0 +1,27 @@
+.flag {
+    cursor: pointer;
+    margin: 10px;
+    border: solid 4px gray;
+}
+
+.flag:hover {
+    border: solid 4px black;
+}
+
+.flag img {
+    width: 100%;
+    padding: 0px; 
+}
+
+p {
+    color: black;
+    font-weight:  bold;
+    /* -webkit-text-stroke: 0.75px black; */
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0px;
+}
+
+.selected {
+    border: solid 4px black;
+}

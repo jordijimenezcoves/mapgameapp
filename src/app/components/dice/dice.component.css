@@ -1,0 +1,19 @@
+.diceContainer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    cursor: pointer;
+}
+
+img:hover {
+    width: 105px;
+}
+
+#number {
+    font-size: 4em;
+    font-weight: bold;
+}
