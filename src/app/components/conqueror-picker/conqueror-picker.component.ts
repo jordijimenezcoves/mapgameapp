@@ -18,46 +18,46 @@ export class ConquerorPickerComponent implements OnInit {
   ngOnInit(): void {
     this.conquerors = [
       {
-        id: 'conq-esp',
+        id: 'conq-1',
         name: 'Naranja',
         color: '#F98520',
-        flag: 'Napoleon1.png'
+        flag: 'Napoleon1.jpg'
       },
       {
-        id: 'conq-ita',
+        id: 'conq-2',
         name: 'Verde',
         color: '#81E23B',
-        flag: 'Napoleon2.png'
+        flag: 'Napoleon2.jpg'
       },
       {
-        id: 'conq-fra',
+        id: 'conq-3',
         name: 'Azul',
         color: '#26A8FC',
-        flag: 'Napoleon3.png'
+        flag: 'Napoleon3.jpg'
       },
       {
-        id: 'conq-uk',
+        id: 'conq-4',
         name: 'Rojo',
         color: '#F74A4C',
-        flag: 'Napoleon4.png'
+        flag: 'Napoleon4.jpg'
       },
       {
-        id: 'conq-ale',
+        id: 'conq-5',
         name: 'Morado',
         color: '#9D50FE',
-        flag: 'Napoleon5.png'
+        flag: 'Napoleon5.jpg'
       },
       {
-        id: 'conq-portugal',
+        id: 'conq-6',
         name: 'Cian',
         color: '#24FFE7',
-        flag: 'Napoleon6.png'
+        flag: 'Napoleon6.jpg'
       },
       {
-        id: 'conq-bel',
+        id: 'conq-7',
         name: 'Rosa',
         color: '#F754C8',
-        flag: 'Napoleon7.png'
+        flag: 'Napoleon7.jpg'
       },
       {
         id: 'conq-bor',
