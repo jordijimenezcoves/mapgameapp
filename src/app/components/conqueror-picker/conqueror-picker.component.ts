@@ -19,45 +19,45 @@ export class ConquerorPickerComponent implements OnInit {
     this.conquerors = [
       {
         id: 'conq-esp',
-        name: 'España',
+        name: 'Naranja',
         color: '#F98520',
-        flag: 'spainflag.png'
+        flag: 'Napoleon1.png'
       },
       {
         id: 'conq-ita',
-        name: 'Italia',
+        name: 'Verde',
         color: '#81E23B',
-        flag: 'italyflag.png'
+        flag: 'Napoleon2.png'
       },
       {
         id: 'conq-fra',
-        name: 'Francia',
+        name: 'Azul',
         color: '#26A8FC',
-        flag: 'franceflag.png'
+        flag: 'Napoleon3.png'
       },
       {
         id: 'conq-uk',
-        name: 'Reino Unido',
+        name: 'Rojo',
         color: '#F74A4C',
-        flag: 'ukflag.png'
+        flag: 'Napoleon4.png'
       },
       {
         id: 'conq-ale',
-        name: 'Alemania',
+        name: 'Morado',
         color: '#9D50FE',
-        flag: 'germanyflag.png'
+        flag: 'Napoleon5.png'
       },
       {
         id: 'conq-portugal',
-        name: 'Portugal',
+        name: 'Cian',
         color: '#24FFE7',
-        flag: 'portugalflag.png'
+        flag: 'Napoleon6.png'
       },
       {
         id: 'conq-bel',
-        name: 'Bélgica',
+        name: 'Rosa',
         color: '#F754C8',
-        flag: 'belgiumflag.png'
+        flag: 'Napoleon7.png'
       },
       {
         id: 'conq-bor',

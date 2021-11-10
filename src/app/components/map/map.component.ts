@@ -12,10 +12,9 @@ export class MapComponent {
 
   onClick(region:any) {
     let clickedRegionId = region.target.attributes['id'].value;
-    let clickedRegionName = region.target.attributes['data-name'].value;
     let selectedConquerorColor = this.mainService.getSelectedConqueror().color;
-    console.log('Clicked region:', clickedRegionName);
     document.getElementById(clickedRegionId)?.setAttribute('style',`fill:${selectedConquerorColor}`);
+    console.log("Clicked region id: ", clickedRegionId);
   }
 
 }
